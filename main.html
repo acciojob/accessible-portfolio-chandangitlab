@@ -1,16 +1,54 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <header>
+        <h1 role="heading" aria-level="1">My Portfolio</h1>
+    </header>
+
+    <nav role="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+
+        <img
+            role="img"
+            src="https://placehold.co/200x200"
+            alt="Profile picture">
+
+        <h2 role="heading" aria-level="2">Hello, I'm Chandan</h2>
+
+        <p>
+            I am a passionate web developer interested in
+            creating responsive and accessible websites.
+        </p>
+
+        <h2 role="heading" aria-level="2">My Skills</h2>
+
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+            <li role="listitem">React</li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Portfolio. All rights reserved.</p>
+    </footer>
 
 </body>
-
 </html>
